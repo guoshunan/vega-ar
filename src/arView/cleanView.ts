@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { View } from 'vega'
 
 export class CleanView extends View {

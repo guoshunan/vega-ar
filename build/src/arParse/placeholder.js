@@ -1,4 +1,3 @@
-// @ts-nocheck
 import * as d3Interpolate from 'd3-interpolate';
 import { shuffle } from "../utils";
 function pick(range) {

@@ -266,8 +266,8 @@
         "signature": "67c5455574bdb50071ee8a8666d0c978981ec9b15026902268b41b23aea0c8ad"
       },
       "../src/utils.ts": {
-        "version": "3c026c708f54258961f2c65af44f83027b093ff5313f20c7914640c8b0fd1113",
-        "signature": "a3b77104b676371e1fb99235c9302ecc9b13a741b13a47f42204717dc0aae255"
+        "version": "e3e86d356e0d974b7e5fbd758844fda1a6b9dd7c618f610e2081e01a6878a3f1",
+        "signature": "5568752294d78ef02394b50f0ff30f276aacc5f268bb9177d17f2edfbf4cf252"
       },
       "../src/arview/scale.ts": {
         "version": "182654092ed05e48f77503d072f8ceb7cd60ef6d7060b8e8983acb9cb446cbc5",
@@ -290,7 +290,7 @@
         "signature": "f79def1900d8460c91b23385e970fdc2d03eac21d73adee0dea506511c706157"
       },
       "../src/publish.ts": {
-        "version": "eeeaddff8c9c4f794d006621642ecd22c7563755f9cd7b5c035461b8763ef6c1",
+        "version": "8b263ba85f7314bbbcb2a7fe7b88560b9a5e3eed3c7ab121405d31aafe25fbca",
         "signature": "477ab5b3880f907fd7f6841195e28a31e757f14a0daba5b524a95e5479032927"
       },
       "../src/arparse/transform.ts": {
@@ -318,7 +318,7 @@
         "signature": "62d74ce17cdadf77c7192c0b13b6debda4a80b166ceecbf304b26071a2b89079"
       },
       "../src/arparse/placeholder.ts": {
-        "version": "d1e4d6c0db18847e65f5ac8ddc388959b00ae772a878bf198b92311e7c7f9653",
+        "version": "680d39eca9779644a018c916533303ca1cda4018c9d81ae20a45dea8db8c2862",
         "signature": "d2619fbd536390dc24a39e94650f6dc2f81da616c02c41042996fb1660b2b66b"
       },
       "../src/arparse/isgeo.ts": {
@@ -346,8 +346,8 @@
         "signature": "e3d44f273bf2738e3ba1fe0538455eb09dfbef5c3a044f6def8bf009ea5a81dd"
       },
       "../src/typings/augment.d.ts": {
-        "version": "874d29b7feb74bd66ff733545ee4f775ffbf9550a162cf50213224a7f5982c06",
-        "signature": "874d29b7feb74bd66ff733545ee4f775ffbf9550a162cf50213224a7f5982c06"
+        "version": "262eafbd03a4248a328cc3cc0f329b5e13f613a81e3088bb601ce5351f5b886f",
+        "signature": "262eafbd03a4248a328cc3cc0f329b5e13f613a81e3088bb601ce5351f5b886f"
       },
       "../src/typings/global.d.ts": {
         "version": "1b787ed3442b522bf837dcca13b6837982ddaf49b2aeb430034c3a672b8dbf9f",
@@ -1464,12 +1464,12 @@
       "../node_modules/vega-typings/types/index.d.ts",
       "../node_modules/vega/index.d.ts",
       "../src/type.ts",
-      "../src/utils.ts",
       "../src/arview/scale.ts",
       "../src/arview/evaluate.ts",
       "../src/arview/arview.ts",
       "../src/arview/cleanview.ts",
       "../src/arview/index.ts",
+      "../src/publish.ts",
       "../src/arparse/transform.ts",
       "../src/arparse/scale.ts",
       "../src/arparse/chartdirection.ts",
@@ -1537,7 +1537,7 @@
       "../node_modules/@types/node/ts3.6/assert.d.ts",
       "../node_modules/@types/node/ts3.6/index.d.ts",
       "../node_modules/@types/resolve/index.d.ts",
-      "../src/publish.ts"
+      "../src/utils.ts"
     ]
   },
   "version": "3.7.0-beta"

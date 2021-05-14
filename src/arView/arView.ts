@@ -1,3 +1,4 @@
+// @ts-nocheck
 import vega, { View, Renderers } from 'vega'
 import { syncScale } from './scale'
 import { evalDataNoUpdate } from './evaluate'

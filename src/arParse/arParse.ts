@@ -1,3 +1,4 @@
+// @ts-nocheck
 import vega, { Spec, Encode, Mark, isNumber } from 'vega'
 
 import { ARSpec, SyncItem } from '../type'

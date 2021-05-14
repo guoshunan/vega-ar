@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Scale, isString, isArray, Signal, isNumber } from 'vega'
 import { isDataReference, isSignalRef, isDiscreteScale, toArray, warn, log } from '../utils';
 import { ARSpec, ScaleItem } from '../type';

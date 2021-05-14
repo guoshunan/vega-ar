@@ -3,8 +3,8 @@ import { ARSpec } from './type'
 import { log, error } from './utils'
 import { ARView } from './arView';
 
-const API_URL = 'http://vegaarapi.hkustvis.org'
-// const API_URL = 'http://localhost:12331'
+// const API_URL = 'http://vegaarapi.hkustvis.org'
+const API_URL = 'http://localhost:8001'
 
 export async function publish(el: string, spec: ARSpec, arView: ARView) {
   // 1. check url data source

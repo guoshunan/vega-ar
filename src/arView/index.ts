@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { ARViewOption, ARView } from './arView'
 import { CleanView } from './cleanView'
 

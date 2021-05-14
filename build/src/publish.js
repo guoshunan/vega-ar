@@ -9,7 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 import { log, error } from './utils';
 // const API_URL = 'http://vegaarapi.hkustvis.org'
-const API_URL = 'http://localhost:8000';
+const API_URL = 'http://localhost:8001';
 export function publish(el, spec, arView) {
     return __awaiter(this, void 0, void 0, function* () {
         // 1. check url data source

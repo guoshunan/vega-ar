@@ -1,3 +1,4 @@
+// @ts-nocheck
 import {
   SceneGroup, SceneItem, Data, ValuesData, UrlData, Transforms, SignalRef,
   TransformField, DataRef, ScaleData, isObject, isArray, GroupMark, Mark,
@@ -141,6 +142,7 @@ function union<T>(a: Set<T>, b: Set<T>): Set<T> {
  * Shuffles array in place. ES6 version
  * @param {Array} a items An array containing the items.
  */
+// @ts-nocheck
 function shuffle(a: any[]): any[] {
   for (let i = a.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));

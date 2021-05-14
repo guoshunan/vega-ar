@@ -104,6 +104,7 @@
      * Shuffles array in place. ES6 version
      * @param {Array} a items An array containing the items.
      */
+    // @ts-nocheck
     function shuffle(a) {
         for (let i = a.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
@@ -160,7 +161,7 @@
         });
     };
     // const API_URL = 'http://vegaarapi.hkustvis.org'
-    const API_URL = 'http://localhost:8000';
+    const API_URL = 'http://localhost:8001';
     function publish(el, spec, arView) {
         return __awaiter$3(this, void 0, void 0, function* () {
             // 1. check url data source
@@ -564,7 +565,6 @@
       };
     }
 
-    // @ts-nocheck
     function pick(range) {
         return (idx) => {
             const tick = idx % range.length;

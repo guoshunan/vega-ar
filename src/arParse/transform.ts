@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { SignalRef, Transforms, CollectTransform } from 'vega'
 import { isPartitionTransform, isSignalRef, insert, isCrossTransform, isTreeTransform, isTreemapTransform, isTreelinks, warn } from '../utils'
 import { ARSpec, TransformItem } from '../type';

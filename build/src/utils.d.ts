@@ -32,7 +32,7 @@ declare function isHierarchicalData(data?: Data[], arData?: Data[]): {
     index: number;
     data: SourceData;
 } | null;
-declare function toArray(o?: any | any[]): unknown[];
+declare function toArray(o?: any | any[]): any[];
 declare const insert: (...items: any[]) => {
     to: (arr: any[]) => {
         at: (idx: number) => any[];
